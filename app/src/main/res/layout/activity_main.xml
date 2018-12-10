@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/baground"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="437px"
+        android:layout_height="437px"
+        android:scaleType="fitXY"
+        android:id="@+id/logo"
+        android:background="@drawable/logo" />
+    <TextView
+        android:id="@+id/title"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="#f2ac07"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tour with Me"/>
+</LinearLayout>
